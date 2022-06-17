@@ -1,5 +1,5 @@
 # MakerspaceCT
-Online Machine and Tool Reservation System
+## Online Machine and Tool Reservation System
 
 MakerspaceCT
 Address/Website:
@@ -9,13 +9,13 @@ Points of Contact:
 Mark Colbert
 Ben Parker
 
-Problems and Solutions
-Background:
+## Problems and Solutions
+<em>Background:</em>
 MakerspaceCT shares a common problem with most shops out there: the machines and tools sit idle most of the time. The shop owners invested a ton of money to purchase assets, and they are underutilized. A machine that does not run is wasting time and money.  
 MakerspaceCT wants to create their own systems internally to allow members easy access to these machines and tools–to reduce the amount of friction in getting it into their hands.
 MakerspaceCT is a nonprofit shop focused on education and classes for their members. Education provides a potential career path in manufacturing for youngsters.
 
-Online Machine and tool Reservation System
+## Online Machine and tool Reservation System
 Problem: Member comes in to use a specific/niche machine and another member is currently using it.  The machine could be in use for 2 hours or more.
 Woodshop: Wood lathe.  Techno CNC router
 Electronics lab: Red 60W Laser Engraver
@@ -24,6 +24,7 @@ Metal shop: Koike Aronson ShopPro Plasma Cutting CNC
 Solution: Create a reservation system that allows a member to use the current MakerspaceCT website to pick a time slot
 Allow small tools as a rental outside of the shop for member.  Say dewalt drill/driver or a grinder.  Member sign liability forms for risk, and use the reservation system to rent out the tool for use.
 Piece of Hardware or screen present at the machine to show time slots currently taken, so any member will know who is currently running the machine.  A piece of paper printed at the start of the day could be a temporary setup, but a waste of paper over time.  A list of names at the start of the day of members who want to use the machine.
+
 David, shop manager, wants a POS system for selling consumables.
 Problem:  Member forgets to bring in their own consumables when using a sanding tool in the metal or wood shop, or anything else.  Borrows some of the sandpaper at the shop expense, not sustainable.
 Solution: P.O.S. point of sale register.  Think of a coffee shop using an iPad square device to collect payment or donation.  Direct member to MakerspaceCT website with QR code on consumable wall in the shop.
@@ -31,20 +32,21 @@ Consumables
 Woodshop: sandpaper, glue, steel wool, rags
 Metal shop: sanding discs for grinders, filler wire welding
 Machine shop: bits
+
 Ben, instructor, text students with Wild Apricot software
 Problem: used a service called ZipWhip to text a scheduled message to  students with MakerspaceCT phone number when class is in session.  The service will reach end-of-life this year.
 Solution: Integrate group text message capabilities with current Wild Apricot software using MakerspaceCT phone number
 Research was performed on what are the alternatives and Integromat/Make is a service that may do the job, but requires a yearly subscription.
 
 
-Specific Needs
+## Specific Needs
 When a user does THAT, THIS happens.
 Write out as many of these user stories to determine exactly which functionalities need to be built and find out what the exact needs of the reservation system are.
 First
 Second
 Third
 
-Solutions:
+### Solutions:
 OPTION 1
 Use existing plugins with no modifications. You can use any that is being actively maintained.
 PROS:
@@ -87,7 +89,7 @@ As the system, I send an email confirmation to the user when a reservation is ma
 As the system, I block off the date/time of a reservation to prevent other members from making a reservation for the same time.
 When a reservation is added to the calendar, the time slot for the reservation is blocked off for anybody else to make a reservation during that time.
 
-[CRUD = Create, Read, Update, and Delete]
+# [CRUD = Create, Read, Update, and Delete]
 
 C – ADD NEW RESERVATION
 As a user, I can Add a reservation [for a machine] to the Calendar from the dedicated Reservations page.
@@ -110,7 +112,7 @@ D – CANCEL RESERVATION
 As a user, I can Cancel any of my (upcoming +/- ongoing?) Reservations.
 As a user, I am able to quickly Cancel a Reservation by following a hyperlink in its confirmation email.
 
-INFORMATION
+## INFORMATION
 As a user, I am able to reference MakerspaceCT’s reservation rules from the Reservation Calendar page.
 When a user browses to the screen with the reservation calendar, there is a list of reservation rules to ensure users are using the reservation calendar properly. (reservation maximum, no-show policy, etc)
 
@@ -162,7 +164,7 @@ Scenario Seven
 Scenario Eight
 
 
-Appendix 1: Bigger Picture 
+#### Appendix 1: Bigger Picture 
 
 The notes are a condensed representation of the areas of improvement for MakerspaceCT, as identified by Mark during the initial meeting with O(1) on Sunday, May 29th.
 
